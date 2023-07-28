@@ -1,0 +1,2 @@
+D:\Java Libary\Projects\VS Studio Projects\GitHub Uploader\GitHub Uploader\bin\Release\net6.0-windows\publish\win-x64\GitHub Uploader.pdb
+D:\Java Libary\Projects\VS Studio Projects\GitHub Uploader\GitHub Uploader\bin\Release\net6.0-windows\publish\win-x64\GitHub Uploader.exe

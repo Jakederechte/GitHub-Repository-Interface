@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "/TLbOZYSpMtcCkg2GMqidekZsPfBHg4xzF1yVy2IF/++HWrHDNAenqHtYfccEmJTpce8zB+3jhLDd42yvdtnRA==",
+  "success": true,
+  "projectFilePath": "D:\\Java Libary\\Projects\\VS Studio Projects\\GitHub Uploader\\GitHub Uploader\\GitHub Uploader.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ecker\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\6.0.16\\microsoft.netcore.app.runtime.win-x86.6.0.16.nupkg.sha512",
+    "C:\\Users\\ecker\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\6.0.16\\microsoft.windowsdesktop.app.runtime.win-x86.6.0.16.nupkg.sha512",
+    "C:\\Users\\ecker\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\6.0.16\\microsoft.aspnetcore.app.runtime.win-x86.6.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}
