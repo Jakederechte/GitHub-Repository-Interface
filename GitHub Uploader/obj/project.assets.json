@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Java Libary\\Projects\\VS Studio Projects\\Github-Repository-Uploader\\GitHub Uploader\\GitHub Uploader.csproj",
+      "projectUniqueName": "D:\\Java Libary\\Projects\\VS Studio Projects\\GitHub-Repository-Interface\\GitHub Uploader\\GitHub Uploader.csproj",
       "projectName": "GitHub Uploader",
-      "projectPath": "D:\\Java Libary\\Projects\\VS Studio Projects\\Github-Repository-Uploader\\GitHub Uploader\\GitHub Uploader.csproj",
+      "projectPath": "D:\\Java Libary\\Projects\\VS Studio Projects\\GitHub-Repository-Interface\\GitHub Uploader\\GitHub Uploader.csproj",
       "packagesPath": "C:\\Users\\ecker\\.nuget\\packages\\",
-      "outputPath": "D:\\Java Libary\\Projects\\VS Studio Projects\\Github-Repository-Uploader\\GitHub Uploader\\obj\\",
+      "outputPath": "D:\\Java Libary\\Projects\\VS Studio Projects\\GitHub-Repository-Interface\\GitHub Uploader\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ecker\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -517,3 +517,21 @@ D:\Java Libary\Projects\VS Studio Projects\GitHub Uploader\GitHub Uploader\obj\R
 D:\Java Libary\Projects\VS Studio Projects\GitHub Uploader\GitHub Uploader\obj\Release\net6.0-windows\win-x86\GitHub Uploader.pdb
 D:\Java Libary\Projects\VS Studio Projects\GitHub Uploader\GitHub Uploader\obj\Release\net6.0-windows\win-x86\GitHub Uploader.genruntimeconfig.cache
 D:\Java Libary\Projects\VS Studio Projects\GitHub Uploader\GitHub Uploader\obj\Release\net6.0-windows\win-x86\ref\GitHub Uploader.dll
+D:\Java Libary\Projects\VS Studio Projects\GitHub-Repository-Interface\GitHub Uploader\bin\Release\net6.0-windows\win-x86\GitHub Uploader.exe
+D:\Java Libary\Projects\VS Studio Projects\GitHub-Repository-Interface\GitHub Uploader\bin\Release\net6.0-windows\win-x86\GitHub Uploader.deps.json
+D:\Java Libary\Projects\VS Studio Projects\GitHub-Repository-Interface\GitHub Uploader\bin\Release\net6.0-windows\win-x86\GitHub Uploader.runtimeconfig.json
+D:\Java Libary\Projects\VS Studio Projects\GitHub-Repository-Interface\GitHub Uploader\bin\Release\net6.0-windows\win-x86\GitHub Uploader.dll
+D:\Java Libary\Projects\VS Studio Projects\GitHub-Repository-Interface\GitHub Uploader\bin\Release\net6.0-windows\win-x86\GitHub Uploader.pdb
+D:\Java Libary\Projects\VS Studio Projects\GitHub-Repository-Interface\GitHub Uploader\obj\Release\net6.0-windows\win-x86\GitHub Uploader.csproj.AssemblyReference.cache
+D:\Java Libary\Projects\VS Studio Projects\GitHub-Repository-Interface\GitHub Uploader\obj\Release\net6.0-windows\win-x86\GitHub_Uploader.Form1.resources
+D:\Java Libary\Projects\VS Studio Projects\GitHub-Repository-Interface\GitHub Uploader\obj\Release\net6.0-windows\win-x86\GitHub_Uploader.Properties.Resources.resources
+D:\Java Libary\Projects\VS Studio Projects\GitHub-Repository-Interface\GitHub Uploader\obj\Release\net6.0-windows\win-x86\GitHub Uploader.csproj.GenerateResource.cache
+D:\Java Libary\Projects\VS Studio Projects\GitHub-Repository-Interface\GitHub Uploader\obj\Release\net6.0-windows\win-x86\GitHub Uploader.GeneratedMSBuildEditorConfig.editorconfig
+D:\Java Libary\Projects\VS Studio Projects\GitHub-Repository-Interface\GitHub Uploader\obj\Release\net6.0-windows\win-x86\GitHub Uploader.AssemblyInfoInputs.cache
+D:\Java Libary\Projects\VS Studio Projects\GitHub-Repository-Interface\GitHub Uploader\obj\Release\net6.0-windows\win-x86\GitHub Uploader.AssemblyInfo.cs
+D:\Java Libary\Projects\VS Studio Projects\GitHub-Repository-Interface\GitHub Uploader\obj\Release\net6.0-windows\win-x86\GitHub Uploader.csproj.CoreCompileInputs.cache
+D:\Java Libary\Projects\VS Studio Projects\GitHub-Repository-Interface\GitHub Uploader\obj\Release\net6.0-windows\win-x86\GitHub Uploader.dll
+D:\Java Libary\Projects\VS Studio Projects\GitHub-Repository-Interface\GitHub Uploader\obj\Release\net6.0-windows\win-x86\refint\GitHub Uploader.dll
+D:\Java Libary\Projects\VS Studio Projects\GitHub-Repository-Interface\GitHub Uploader\obj\Release\net6.0-windows\win-x86\GitHub Uploader.pdb
+D:\Java Libary\Projects\VS Studio Projects\GitHub-Repository-Interface\GitHub Uploader\obj\Release\net6.0-windows\win-x86\GitHub Uploader.genruntimeconfig.cache
+D:\Java Libary\Projects\VS Studio Projects\GitHub-Repository-Interface\GitHub Uploader\obj\Release\net6.0-windows\win-x86\ref\GitHub Uploader.dll

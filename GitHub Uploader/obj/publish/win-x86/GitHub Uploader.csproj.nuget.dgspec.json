@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Java Libary\\Projects\\VS Studio Projects\\GitHub Uploader\\GitHub Uploader\\GitHub Uploader.csproj": {}
+    "D:\\Java Libary\\Projects\\VS Studio Projects\\GitHub-Repository-Interface\\GitHub Uploader\\GitHub Uploader.csproj": {}
   },
   "projects": {
-    "D:\\Java Libary\\Projects\\VS Studio Projects\\GitHub Uploader\\GitHub Uploader\\GitHub Uploader.csproj": {
+    "D:\\Java Libary\\Projects\\VS Studio Projects\\GitHub-Repository-Interface\\GitHub Uploader\\GitHub Uploader.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Java Libary\\Projects\\VS Studio Projects\\GitHub Uploader\\GitHub Uploader\\GitHub Uploader.csproj",
+        "projectUniqueName": "D:\\Java Libary\\Projects\\VS Studio Projects\\GitHub-Repository-Interface\\GitHub Uploader\\GitHub Uploader.csproj",
         "projectName": "GitHub Uploader",
-        "projectPath": "D:\\Java Libary\\Projects\\VS Studio Projects\\GitHub Uploader\\GitHub Uploader\\GitHub Uploader.csproj",
+        "projectPath": "D:\\Java Libary\\Projects\\VS Studio Projects\\GitHub-Repository-Interface\\GitHub Uploader\\GitHub Uploader.csproj",
         "packagesPath": "C:\\Users\\ecker\\.nuget\\packages\\",
-        "outputPath": "D:\\Java Libary\\Projects\\VS Studio Projects\\GitHub Uploader\\GitHub Uploader\\obj\\publish\\win-x86\\",
+        "outputPath": "D:\\Java Libary\\Projects\\VS Studio Projects\\GitHub-Repository-Interface\\GitHub Uploader\\obj\\publish\\win-x86\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ecker\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -50,20 +50,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
-              "version": "[6.0.16, 6.0.16]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.win-x86",
-              "version": "[6.0.16, 6.0.16]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x86",
-              "version": "[6.0.16, 6.0.16]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

@@ -54,6 +54,7 @@
             AutosaveIntervall6min = new Button();
             AutosaveInfo3 = new Label();
             AutosaveNextSave = new Label();
+            Copyright = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -349,12 +350,24 @@
             AutosaveNextSave.TabIndex = 27;
             AutosaveNextSave.Text = "00:00";
             // 
+            // Copyright
+            // 
+            Copyright.AutoSize = true;
+            Copyright.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            Copyright.ForeColor = Color.Gray;
+            Copyright.Location = new Point(670, 355);
+            Copyright.Name = "Copyright";
+            Copyright.Size = new Size(118, 21);
+            Copyright.TabIndex = 28;
+            Copyright.Text = "© Jakederechte";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Desktop;
             ClientSize = new Size(800, 385);
+            Controls.Add(Copyright);
             Controls.Add(AutosaveNextSave);
             Controls.Add(AutosaveInfo3);
             Controls.Add(AutosaveIntervall2min);
@@ -415,5 +428,6 @@
         private Button AutosaveIntervall6min;
         private Label AutosaveInfo3;
         private Label AutosaveNextSave;
+        private Label Copyright;
     }
 }

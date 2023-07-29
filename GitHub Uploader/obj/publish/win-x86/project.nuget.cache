@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/TLbOZYSpMtcCkg2GMqidekZsPfBHg4xzF1yVy2IF/++HWrHDNAenqHtYfccEmJTpce8zB+3jhLDd42yvdtnRA==",
+  "dgSpecHash": "c+6OhiqPD6c9RUEgJxY2AafnFchygqv6xhrfd+drkGV9D5RECLjree1vRNX4aT1pP3GyOPitjTTu0CBLf9rgtQ==",
   "success": true,
-  "projectFilePath": "D:\\Java Libary\\Projects\\VS Studio Projects\\GitHub Uploader\\GitHub Uploader\\GitHub Uploader.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\ecker\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\6.0.16\\microsoft.netcore.app.runtime.win-x86.6.0.16.nupkg.sha512",
-    "C:\\Users\\ecker\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\6.0.16\\microsoft.windowsdesktop.app.runtime.win-x86.6.0.16.nupkg.sha512",
-    "C:\\Users\\ecker\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\6.0.16\\microsoft.aspnetcore.app.runtime.win-x86.6.0.16.nupkg.sha512"
-  ],
+  "projectFilePath": "D:\\Java Libary\\Projects\\VS Studio Projects\\GitHub-Repository-Interface\\GitHub Uploader\\GitHub Uploader.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

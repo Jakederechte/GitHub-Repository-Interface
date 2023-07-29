@@ -13,28 +13,41 @@ namespace GitHub_Uploader
         private int Intervall;
         private TimeSpan nextSave;
         bool Saving;
+
         public Form1()
         {
-            InitializeComponent();
+            string path = SendCommand("git rev-parse --show-toplevel");
+            if (path.Contains("fatal: not a git repository"))
+            {
+                MessageBox.Show("The Directory Placed in is not a git repository!", "Fatal", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                this.Close();
+            }
+            else
+            {
+                InitializeComponent();
 
-            LogPath = Path.Combine(Path.GetTempPath(), "GitHubLogs");
-            if (!Directory.Exists(LogPath)) Directory.CreateDirectory(LogPath);
+                //Creates a Directory in the %Temp% folder for the .log files
+                LogPath = Path.Combine(Path.GetTempPath(), "GitHubLogs");
+                if (!Directory.Exists(LogPath)) Directory.CreateDirectory(LogPath);
+                LogPath = Path.Combine(LogPath, "Log - " + DateTime.Now.ToString("dd.MM.yyyy") + ".log");
 
-            LogPath = Path.Combine(LogPath, "Log - " + DateTime.Now.ToString("dd.MM.yyyy") + ".log");
+                //Update at the beginning
+                Update(5);
 
-            Update(5);
+                //Create new Timer, for Autosaving
+                timer = new System.Threading.Timer(Callback, null, TimeSpan.FromSeconds(5), TimeSpan.FromSeconds(1));
 
-            timer = new System.Threading.Timer(Callback, null, TimeSpan.FromSeconds(5), TimeSpan.FromSeconds(1));
+                AutosaveNextSave.Text = "Initializing...";
+                AutosaveInfo3.ForeColor = Color.Yellow;
+                AutosaveNextSave.ForeColor = Color.Yellow;
 
-            AutosaveNextSave.Text = "Initializing...";
-            AutosaveInfo3.ForeColor = Color.Yellow;
-            AutosaveNextSave.ForeColor = Color.Yellow;
-
-            Saving = false;
-            Intervall = 5;
-            nextSave = TimeSpan.FromMinutes(Intervall);
+                Saving = false;
+                Intervall = 5;
+                nextSave = TimeSpan.FromMinutes(Intervall);
+            }
         }
 
+        
         public void Callback(object state)
         {
             if (this.InvokeRequired)
@@ -43,8 +56,7 @@ namespace GitHub_Uploader
                 return;
             }
 
-            // Code here:
-
+            //Counts down the timer as long as changes are not uploaded
             if (!Saving)
             {
                 AutosaveNextSave.Text = nextSave.Minutes.ToString("00") + ":" + nextSave.Seconds.ToString("00");
@@ -68,9 +80,9 @@ namespace GitHub_Uploader
 
             string output = "";
 
-            for (int i = 0; i < 3; i++)
+            do
             {
-
+                skip++;
                 output = SendCommand("git pull");
                 ChangeLog("git pull", output, false);
 
@@ -78,11 +90,11 @@ namespace GitHub_Uploader
                 {
                     UpdateRunning.Visible = false;
                     UpdateSuccess.Visible = true;
-                    i = 3;
+                    skip = 4;
 
                     return true;
                 }
-            }
+            } while (skip < 3);
             if (!(output.Contains("Already up to date.")))
             {
                 UpdateRunning.Visible = false;
