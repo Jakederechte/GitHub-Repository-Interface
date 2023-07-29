@@ -1,3 +1,3 @@
-# GitHub-Ropository-Interface
+# GitHub-Repository-Interface
 
-Just download the "GitHub Uploader.exe" file in the "Runnable exe" directory and run it in the directory with the Github repository. (The repository must already exist for the program to work). Now an interface opens to download and upload changes. Also, this program has an autosave functionality, where all changes are automatically uploaded.
+Simply download the "GitHub_Uploader.exe" file from the Release tab and run it in the directory that contains the Github repository. (The repository must already exist for the program to work). Now an interface for downloading and uploading changes will open. The program also has an autosave functionality that automatically uploads all changes.
